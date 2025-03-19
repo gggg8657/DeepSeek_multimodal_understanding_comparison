@@ -252,4 +252,4 @@ flash_attn 이라는 라이브러리 활용함
 2. 이벤트 예측
 3. 비정상 행동 이미지 기반 분석
 4. inference time 비교
-5. custom testset 구축
+5. custom testset 구축.
