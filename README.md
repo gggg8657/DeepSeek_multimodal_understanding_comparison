@@ -37,6 +37,8 @@ The temperature display shows:
 The non-English characters in the image are:
 - 오늘 발표 내용 '미시간 체계 조직 조사' 드리 오... 조선인민군 조장 김일성 동영상 출력
 - 오늘 발표 내
+
+![alt text](image-2.png)
 ---
 
 ## flow
@@ -58,7 +60,7 @@ Identify key objects and people in the image, including their count, positions, 
 <|Assistant|>:  The image features a man in a suit and red tie, standing behind a microphone, with a blue curtain in the background.
 ```
 
-![alt text](image-2.png)
+
 
 ---
 
