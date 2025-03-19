@@ -12,12 +12,18 @@ vl_gpt = MultiModalityCausalLM.from_pretrained(
     model_path, trust_remote_code=True
 )
 vl_gpt = vl_gpt.to(torch.bfloat16).cuda().eval()
-question = " 화면에서 무슨일이 일어나고 있는지 서술해줘"
+# question = "Identify key objects and people in the image, including their count, positions, actions, and appearances."
+question = "화면에서 무슨일이 일어나고 있는지 서술해줘"
+PATH = "/home/cine/Documents/DJ/CCTV_3.8.20/DeepSeek-Janus/516303_633410_1319.jpg"
+# PATH = "/home/cine/Documents/DJ/CCTV_3.8.20/DeepSeek-Janus/news.jpg"
+# PATH = "/home/cine/Documents/DJ/CCTV_3.8.20/DeepSeek-Janus/street_fight.jpeg"
+# PATH = "/home/cine/Documents/DJ/CCTV_3.8.20/DeepSeek-Janus/street_fight2.jpg.png"
+
 conversation = [
     {
         "role": "<|User|>",
         "content": f"<image_placeholder>\n{question}",
-        "images": ["/home/cine/Documents/DJ/CCTV_3.8.20/DeepSeek-Janus/street_fight2.jpg.png"],
+        "images": [f"{PATH}"],
     },
     {"role": "<|Assistant|>", "content": ""},
 ]
