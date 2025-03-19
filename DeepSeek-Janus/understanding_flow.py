@@ -1,24 +1,23 @@
 
 import torch
-from transformers import AutoModelForCausalLM
-from janus.models import MultiModalityCausalLM, VLChatProcessor
+from janus.janusflow.models import MultiModalityCausalLM, VLChatProcessor
 from janus.utils.io import load_pil_images
 
 # specify the path to the model
-model_path = "deepseek-ai/Janus-Pro-7B"
+model_path = "deepseek-ai/JanusFlow-1.3B"
 vl_chat_processor: VLChatProcessor = VLChatProcessor.from_pretrained(model_path)
 tokenizer = vl_chat_processor.tokenizer
 
-vl_gpt: MultiModalityCausalLM = AutoModelForCausalLM.from_pretrained(
+vl_gpt = MultiModalityCausalLM.from_pretrained(
     model_path, trust_remote_code=True
 )
 vl_gpt = vl_gpt.to(torch.bfloat16).cuda().eval()
-question = "Identify key objects and people in the image, including their count, positions, actions, and appearances."
+question = " 화면에서 무슨일이 일어나고 있는지 서술해줘"
 conversation = [
     {
         "role": "<|User|>",
         "content": f"<image_placeholder>\n{question}",
-        "images": ["/home/cine/Documents/DJ/CCTV_3.8.20/DeepSeek-Janus/news.jpg"],
+        "images": ["/home/cine/Documents/DJ/CCTV_3.8.20/DeepSeek-Janus/street_fight2.jpg.png"],
     },
     {"role": "<|Assistant|>", "content": ""},
 ]
