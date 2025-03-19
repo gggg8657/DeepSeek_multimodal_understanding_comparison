@@ -125,5 +125,6 @@ Identify key objects and people in the image, including their count, positions, 
 
 ## basic model
 
-crashed with Version of CUDA
-it uses Flash_attn
+CUDA 버전으로 인해 기본 모델 실험 불가 (2025.03.19)
+
+flash_attn 이라는 라이브러리 활용함
