@@ -18,7 +18,7 @@ conversation = [
     {
         "role": "<|User|>",
         "content": f"<image_placeholder>\n{question}",
-        "images": ["/home/cine/Documents/DJ/CCTV_3.8.20/DeepSeek-Janus/street_fight2.jpg.png"],
+        "images": ["/home/cine/Documents/DJ/CCTV_3.8.20/DeepSeek-Janus/news.jpg"],
     },
     {"role": "<|Assistant|>", "content": ""},
 ]
