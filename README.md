@@ -125,9 +125,15 @@ Identify key objects and people in the image, including their count, positions, 
 
 <|Assistant|>:  The image features a brown paper envelope with red stripes and a white label with Korean text. The envelope is sealed with a string and a metal clasp. The Korean text on the label reads "주소 주정하세요" which translates to "Please specify the address." The date "2023.03" is displayed at the bottom of the image.
 ```
+```
+<|User|>: <image_placeholder>
+화면에서 무슨일이 일어나고 있는지 서술해줘
+
+<|Assistant|>:  이 화면은 빛나는 비디오 판링이미지입니다. 화면 중앙에는 빨간색 빛이 뒷뒤오고 있으며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤
+```
 
 
-
+---
 ![alt text](DeepSeek-Janus/street_fight.jpeg)
 
 <|User|>: <image_placeholder>
