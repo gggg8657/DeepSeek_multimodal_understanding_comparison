@@ -425,3 +425,6 @@ circular polarizer filter/film 으로 편광 시킨 결과
 - https://www.youtube.com/shorts/1NJ7zU2sKdo?feature=share
 - https://youtu.be/hcykzT_3KLE?t=277
 - 1,000nm(1마이크로미터 또는 μm)부터 약 14,000nm(14μm)까지의 파장에 민감하다. 이것들이 제공하는 데이터를 캡처하고 분석하는 방식을 [열화상 측정](https://ko.wikipedia.org/w/index.php?title=%EC%97%B4%ED%99%94%EC%83%81_%EC%B8%A1%EC%A0%95&action=edit&redlink=1)[이라고 한다](https://ko.wikipedia.org/wiki/%EC%97%B4%ED%99%94%EC%83%81_%EC%B9%B4%EB%A9%94%EB%9D%BC)
+
+- RGB-IR Camera의 가능성 
+https://www.instagram.com/autocar_india/reel/DEjieLxIfxq/?locale=zh-TW
