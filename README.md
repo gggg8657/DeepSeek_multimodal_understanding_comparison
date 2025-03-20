@@ -344,3 +344,30 @@ Identify key objects and people in the image, including their count, positions, 
 CUDA 버전으로 인해 기본 모델 실험 불가 (2025.03.19)
 
 flash_attn 이라는 라이브러리 활용함
+
+# Long Term Vision
+
+## 활용되어야 할 연구 주제
+1. Anomaly Detecion
+   - 거동 수상자 (이하 거수자)) 탐지
+   - 이상 행동 예측 (월담, 방화, etc)
+2. Pedestrian Attribute Recognition
+   - 보행자의 속성 인식 (서류 봉투를 들고 걸어가는 적색 롱패딩의 여성)
+   - scenario : 식별된 거수자의 상세 불명의 서류철/가방 등의 이슈
+3. Object Tracking
+   - 식별된 거수자 위치 추적 목표
+4. Scene Description
+   - 거수자 혹은 이상징후가 포착된 영상에 대한 설명
+5. VQA
+   - 예측할 수 있는 이상 징후에 대해 미리 지정하고 발생시 알림을 위함
+   - 기 발생되거나, 녹화된 영상의 문제상황 검토 
+6. Face Detection
+   - 차량 내부, 스피드게이트 등의 출입구에서 인허가되지 않은 인적요소 검출 목표
+7. Face Recognition
+   - 차량 내부, 스피드 게이트 등의 출입구에서 인허가되지 않은 인적요소 식별 목표
+8. LLM (agentic AI)
+   - 상기 항목들을 종합적으로 판단하는 AGENTIC AI
+   - 상기 항목들에 대한 보고서 작성 AGENTIC AI
+   - 이상징후 탐지 등의 사건 발생 시 경보음 및 내부망 메신저 활용 메시지 송부 모듈로 활용
+   - 거수자 위치 추적을 위한 카메라 틸팅 및 로테이팅 
+   - 단일 폐쇄회로카메라 시야외의 객체 추적을 위한 Multi Camera Object Tracking 모듈
