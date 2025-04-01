@@ -170,6 +170,27 @@ Identify key objects and people in the image, including their count, positions, 
 <|Assistant|>:  이 화면은 빛나는 비디오 판링이미지입니다. 화면 중앙에는 빨간색 빛이 뒷뒤오고 있으며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤오는 비디오 판링이며, 빛이 뒤뒤
 ```
 
+## VL2
+Q :화면에서 무슨일이 일어나고 있는지 서술해줘
+
+A: 这张图片展示了一个棕色的信封，上面有红色的斜线装饰。信封的顶部有一个白色纸条，纸条上写着韩文文字。信封中央有两个圆形孔洞，用绳子穿过并打结固定。信封下方印有大号的红色韩文文字“치명의”以及日期“2023.03”。底部还有较小的韩文文字和电影标题。整体设计给人一种复古且神秘的感觉。
+
+Q: In korean
+
+A :The Korean text on the envelope reads "치명의" which translates to "Death Note". The date at the bottom of the poster is "2023.03", indicating that this could be related to a movie or event scheduled for March 2023. The smaller text below might provide additional information about the content or context of the release, but it's not clearly legible in the provided image.
+
+Q: Identify key objects and people in the image, including their count, positions, actions, and appearances.
+
+A: In the image, there are several identifiable objects and elements:
+Envelope: A large brown envelope with red diagonal stripes.
+Sticker/Paper: Attached to the top right corner of the envelope, containing Korean text.
+Ribbon/Tie: Two small circular loops made from what appears to be twine or string, located near the center of the envelope.
+Text:
+Large red text "치명의" (Chimnyo) centered on the lower half of the envelope.
+Date "2023.03" positioned below the main title.
+Additional Text: Smaller Korean characters at the bottom left and right corners, likely providing further details about the content or production.
+There are no visible people or characters in the image; it focuses solely on these objects and textual elements.
+
 
 ---
 ![alt text](DeepSeek-Janus/street_fight.jpeg)
@@ -366,3 +387,8 @@ circular polarizer filter/film 으로 편광 시킨 결과
 
 - RGB-IR Camera의 가능성 
 https://www.instagram.com/autocar_india/reel/DEjieLxIfxq/?locale=zh-TW
+
+
+###### 설계부터 제조까지 인공지능으로? 두둥탁 
+
+- 저 저 저 저 저 게 어떻게 되냐고
