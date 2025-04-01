@@ -392,3 +392,19 @@ https://www.instagram.com/autocar_india/reel/DEjieLxIfxq/?locale=zh-TW
 ###### 설계부터 제조까지 인공지능으로? 두둥탁 
 
 - 저 저 저 저 저 게 어떻게 되냐고
+
+
+# MORE about anomaly detection
+
+1. MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection CVPR 2024 
+   - github : https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection
+2. An Attribute-based Method for Video Anomaly Detection
+   - github : https://github.com/talreiss/accurate-interpretable-vad
+3. Diversity-Measurable Anomaly Detection
+   - github : https://github.com/FlappyPeggy/DMAD
+
+| 방법론 | 특징 | 사용된 데이터 | 아키텍처 |
+|---|---|---|---|
+| **MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection** | - 비디오에서 추출한 특징 벡터를 고정된 분포의 확률 변수로 간주하고, 신경망을 통해 이 분포를 모델링하여 테스트 비디오의 우도를 추정하고, 이를 기반으로 이상을 탐지합니다.<br>- 다양한 노이즈 수준에서의 분포를 모델링하고, 서로 다른 노이즈 수준의 모델을 정렬하는 정규화를 도입하여 하이퍼파라미터 선택을 제거합니다. | - UCSD Ped2<br>- CUHK Avenue<br>- ShanghaiTech 등 5개의 인기 있는 비디오 이상 탐지 벤치마크 데이터셋을 사용하여 실험을 수행하였습니다. | - 비디오 특징 추출 후, 얕은 신경망과 가우시안 혼합 모델(GMM)을 통해 이상 탐지를 수행합니다.<br>- 추론 시에는 특징을 추출하고 이를 신경망과 GMM에 전달하여 최소한의 지연으로 이상을 탐지합니다. |
+| **An Attribute-based Method for Video Anomaly Detection** | - 각 객체를 속도와 자세(pose)라는 두 가지 속성으로 표현하고, 밀도 추정을 통해 이상 점수를 계산합니다.<br>- 이러한 단순한 표현만으로도 ShanghaiTech 데이터셋에서 최첨단 성능을 달성하였습니다. | - UCSD Ped2<br>- CUHK Avenue<br>- ShanghaiTech 데이터셋을 사용하여 평가를 수행하였습니다. | - 객체의 속도와 자세를 추출하여 밀도 기반의 이상 탐지를 수행합니다.<br>- 사전 학습된 딥 러닝 표현과 결합하여 성능을 향상시킵니다. |
+| **Diversity-Measurable Anomaly Detection (DMAD)** | - 재구성 기반의 이상 탐지 모델에서 정상 패턴의 다양성을 잘 재구성하지 못하는 문제를 해결하기 위해 다이버시티를 측정 가능한 프레임워크를 제안합니다.<br>- Pyramid Deformation Module (PDM)을 설계하여 다양한 정상 패턴을 모델링하고, 재구성된 참조에서 원본 입력으로의 다중 스케일 변형 필드를 추정하여 이상 정도를 측정합니다. | - 감시 비디오와 산업 이미지 데이터셋을 사용하여 실험을 수행하였습니다. | - 정보 압축 모듈(ICM)과 피라미드 변형 모듈(PDM)을 포함한 오토인코더 아키텍처를 사용합니다.<br>- PDM은 재구성 후 변형을 계산하며, PPDM은 재구성 전 변형을 예측합니다. |
